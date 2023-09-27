@@ -4,6 +4,7 @@
 /**
  * 
  */
-module projectsj {
+module kirbydibujo {
 	requires java.desktop;
+
 }

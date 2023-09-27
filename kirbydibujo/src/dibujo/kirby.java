@@ -1,4 +1,4 @@
-package dibujos;
+package dibujo;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.KeyEvent;
@@ -26,7 +26,7 @@ public class kirby extends JPanel implements Runnable, KeyListener{
 	
 	Thread hilo;
 	 public kirby() {
-		 imagen = new ImageIcon(getClass().getResource("/images/gban.png")).getImage();
+		 imagen = new ImageIcon(getClass().getResource("/images/gba.png")).getImage();
 		 image = new ImageIcon(getClass().getResource("/images/tux.png")).getImage();
 	       
 	        hilo = new Thread(this);
